@@ -163,4 +163,4 @@
 
 </br>
 
-<p>Desenvolvido com ❤️ por <a href="https://github.com/lguicardoso">Guilherme Cardoso</a></p>
+<p>Desenvolvido com ❤️ por <a href="https://github.com/lguilhermecardoso">Guilherme Cardoso</a></p>
