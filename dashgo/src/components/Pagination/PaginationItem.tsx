@@ -3,9 +3,14 @@ import { Button } from "@chakra-ui/react";
 interface PagionationItemProps {
   number: number;
   isCurrent?: boolean;
+  onPageChange: (page: number) => void;
 }
 
-export function PaginationItem({number , isCurrent = false}: PagionationItemProps) {
+export function PaginationItem({
+  number ,
+  isCurrent = false,
+  onPageChange
+}: PagionationItemProps) {
   if (isCurrent) {
     return (
       <Button
@@ -33,6 +38,7 @@ export function PaginationItem({number , isCurrent = false}: PagionationItemProp
       _hover={{
         bg: 'gray.500'
       }}
+      onClick={() => onPageChange(number)}
     >
       {number}
     </Button>
